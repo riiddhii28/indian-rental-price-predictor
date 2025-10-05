@@ -89,23 +89,6 @@ The application will open in your default web browser at `http://localhost:8501`
    - Furnishing Status: Choose from available furnishing options
 4. **Get Prediction**: Click "Predict Rent" to see the estimated monthly rental price
 
-## File Structure
-
-```
-indian-rental-price-predictor/
-├── app.py                          # Streamlit web application
-├── process_data.py                 # Data processing and model training script
-├── script.py                       # Script to view Mumbai locations
-├── debug_locations.py              # Debug script for data analysis
-├── test_app_logic.py              # Testing script for app functionality
-├── Indian_housing_Delhi_data.csv   # Raw Delhi housing data
-├── Indian_housing_Mumbai_data.csv  # Raw Mumbai housing data
-├── Indian_housing_Pune_data.csv    # Raw Pune housing data
-├── df_cleaned_for_app.csv          # Processed dataset (generated)
-├── rf_model.pkl                    # Trained Random Forest model (generated)
-├── encoders.pkl                    # Label encoders for categorical data (generated)
-└── README.md                       # This file
-```
 
 ## Model Details
 
