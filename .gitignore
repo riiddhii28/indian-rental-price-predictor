@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+
+# Virtual environments
+.env
+venv/
+env/
+.venv/
+
+# PyCharm / IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Celery
+celerybeat-schedule
+
+# Logs
+*.log
+
+# Sphinx
+docs/_build/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# Local env files
+.env.local
+.env.*
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore wheelhouse
+wheelhouse/
